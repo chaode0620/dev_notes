@@ -1,0 +1,27 @@
+body{
+	--primary: #3385ff;
+
+	font-family: PingFangSC-Regular,PingFang SC;
+	font-size: 14px;
+	background-color: #f8f8f8;
+}
+body,h1,h2,h3,h4,h5,h6,p,div,ul,li {
+	list-style: none;
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+img{ max-width: 100%; }
+
+.text-center{ text-align: center !important; }
+.text-left{ text-align: left !important; }
+.text-right{ text-align: right !important; }
+.text-justify{ text-align: justify !important; }
+
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/*覆盖 element-ui */
+.el-card{ border:none;}
